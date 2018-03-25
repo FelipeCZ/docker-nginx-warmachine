@@ -1,2 +1,2 @@
 # docker-nginx-warmachine
-Docker composer | nginx on warmachine
+Docker compose | nginx on warmachine
