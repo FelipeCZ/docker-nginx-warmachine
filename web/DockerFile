@@ -7,4 +7,5 @@ EXPOSE 443
 
 ADD ssl /etc/ssl/
 ADD nginxconf /etc/nginx/conf.d/
+ADD html /usr/share/nginx/html/
 
