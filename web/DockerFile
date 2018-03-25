@@ -1,0 +1,10 @@
+FROM nginx:stable-alpine
+
+MAINTAINER FELIPE ZANICHELLI
+
+EXPOSE 80
+EXPOSE 443
+
+ADD ssl /etc/ssl/
+ADD nginxconf /etc/nginx/conf.d/
+
