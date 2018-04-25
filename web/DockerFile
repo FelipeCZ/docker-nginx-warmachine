@@ -5,7 +5,7 @@ MAINTAINER FELIPE ZANICHELLI
 EXPOSE 80
 EXPOSE 443
 
-ADD ssl /etc/ssl/
-ADD nginxconf /etc/nginx/conf.d/
-ADD html /usr/share/nginx/html/
+COPY ssl /etc/ssl/
+COPY nginxconf /etc/nginx/conf.d/
+COPY html /usr/share/nginx/html/
 
