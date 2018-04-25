@@ -4,3 +4,4 @@ echo "Build completed."
 echo "Running application..."
 docker-compose up
 echo "Application exited."
+exit 0
